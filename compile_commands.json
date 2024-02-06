@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-fpic",
+      "-I",
+      "include",
+      "-I/usr/include/stemlib",
+      "-c",
+      "-save-temps",
+      "-O3",
+      "-o",
+      "build/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/preston/src/stemcurses",
+    "file": "/home/preston/src/stemcurses/src/main.c",
+    "output": "/home/preston/src/stemcurses/build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-fpic",
+      "-I",
+      "include",
+      "-I/usr/include/stemlib",
+      "-c",
+      "-save-temps",
+      "-O3",
+      "-o",
+      "build/stemcurses.o",
+      "src/stemcurses.c"
+    ],
+    "directory": "/home/preston/src/stemcurses",
+    "file": "/home/preston/src/stemcurses/src/stemcurses.c",
+    "output": "/home/preston/src/stemcurses/build/stemcurses.o"
+  }
+]
